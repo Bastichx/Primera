@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif
+}
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
