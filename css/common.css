@@ -1,9 +1,35 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+    margin     : 0;
+    padding    : 0;
     font-family: "NunitoSans-Regular", Arial, Helvetica, sans-serif
 }
+
 #container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin   : 0 auto;
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
+    padding   : 0%;
+    margin    : 0;
+}
+
+a {
+    color             : var(--primary-color);
+    text-decoration   : none;
+    transition        : all 0, 3s;
+    -webkit-transition: all 0, 3s;
+    -moz-transition   : all 0, 3s;
+    -ms-transition    : all 0, 3s;
+    -o-transition     : all 0, 3s;
+}
+
+a:hover {
+    color: var(--primary-color-dark);
 }
